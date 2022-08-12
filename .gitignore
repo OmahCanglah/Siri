@@ -4,3 +4,4 @@ virtualenv
 tdd
 __pycache__
 *.pyc
+/static
