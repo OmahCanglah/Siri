@@ -26,6 +26,10 @@ SECRET_KEY = 'django-insecure-7t-!=&qefpf^pnq0t)!k!4k$ftt9%xdk^zvg!lf+@b(oj2#^tk
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = [
+    'http://sirilist-staging.ithuan.tw',
+    'http://sirilist.ithuan.tw'
+]
 
 
 # Application definition
