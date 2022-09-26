@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '*',
-    'sirilist-staging.ithuan.tw',
+    'http://sirilist-staging.ithuan.tw',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
